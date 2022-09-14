@@ -1,3 +1,4 @@
+from heapq import *
 class AdjacentList:
     """
     The adjacent list class is used to create an adjacent list to represent the graph of vertices(nodes) connected
@@ -50,9 +51,10 @@ class RoadGraph:
     def routing(self, start, end):
         """ this function does this"""
         # ToDo: Performs the operation needed to find the optimal route.
-
-
-
+def relax(start_vert,end_vert):
+    print('wpw')
+def dijkstra(graph, start, end):
+    print('wpw')
 # The roads represented as a list of tuples
 roads = [(0, 1, 4), (0, 3, 2), (0, 2, 3), (2, 3, 2), (3, 0, 3)]
 # The cafes represented as a list of tuple
